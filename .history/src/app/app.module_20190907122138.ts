@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router'
-import { HttpClientModule } from '@angular/common/http';
+
 import { AppComponent } from './app.component';
 import { ChartComponent } from './components/chart/chart.component';
 
@@ -20,7 +19,6 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
